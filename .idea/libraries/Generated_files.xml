@@ -1,0 +1,33 @@
+<component name="libraryTable">
+  <library name="Generated files" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/states/BlockTest.js" />
+        <item url="file://$PROJECT_DIR$/states/Level0.js" />
+        <item url="file://$PROJECT_DIR$/entities/Board.js" />
+        <item url="file://$PROJECT_DIR$/states/Preloader.js" />
+        <item url="file://$PROJECT_DIR$/entities/Block.js" />
+        <item url="file://$PROJECT_DIR$/states/MainMenu.js" />
+        <item url="file://$PROJECT_DIR$/entities/Player.js" />
+        <item url="file://$PROJECT_DIR$/app.js" />
+        <item url="file://$PROJECT_DIR$/states/Boot.js" />
+        <item url="file://$PROJECT_DIR$/Game.js" />
+        <item url="file://$PROJECT_DIR$/states/Level1.js" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/states/BlockTest.js" />
+      <root url="file://$PROJECT_DIR$/states/Level0.js" />
+      <root url="file://$PROJECT_DIR$/entities/Board.js" />
+      <root url="file://$PROJECT_DIR$/states/Preloader.js" />
+      <root url="file://$PROJECT_DIR$/states/MainMenu.js" />
+      <root url="file://$PROJECT_DIR$/entities/Block.js" />
+      <root url="file://$PROJECT_DIR$/entities/Player.js" />
+      <root url="file://$PROJECT_DIR$/states/Boot.js" />
+      <root url="file://$PROJECT_DIR$/app.js" />
+      <root url="file://$PROJECT_DIR$/states/Level1.js" />
+      <root url="file://$PROJECT_DIR$/Game.js" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>
