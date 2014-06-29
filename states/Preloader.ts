@@ -19,6 +19,8 @@ module CandyStarship {
             this.load.image('spacebg', 'assets/space-blue.png');
             this.load.image('logo', 'assets/logo.png');
             this.load.image('player', 'assets/player-ship.png');
+            this.load.image('laser-bullet', 'assets/laser-bullet.png');
+            this.load.audio('laser-sound', 'assets/laser.ogg', true);
             this.load.audio('level-intro', 'assets/title.ogg', true);
 
         }

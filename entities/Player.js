@@ -5,6 +5,7 @@ var __extends = this.__extends || function (d, b) {
     d.prototype = new __();
 };
 ///<reference path="../lib/phaser.d.ts"/>
+///<reference path="../entities/BasicLaser.ts"/>
 /**
 * Created by zenchi on 16/06/14.
 */
@@ -23,6 +24,15 @@ var CandyStarship;
             this.game.physics.enable(this, Phaser.Physics.ARCADE);
 
             this.checkWorldBounds = true;
+
+            // Add basic lasers
+            var leftLaser = new CandyStarship.BasicLaser(this.game, this, -this.width / 2 + 3, this.height / 2);
+            var rightLaser = new CandyStarship.BasicLaser(this.game, this, this.width / 2 - 3, this.height / 2);
+            leftLaser.fireRate = rightLaser.fireRate = 170;
+            leftLaser.speed = rightLaser.speed = 1200;
+
+            this.game.add.existing(leftLaser);
+            this.game.add.existing(rightLaser);
         }
         Player.prototype.update = function () {
             this.body.velocity.x = 0;
